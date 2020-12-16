@@ -71,7 +71,6 @@ print("F1-score: %f" % (f1_score(y_test, y_pred, average = 'macro')))
 print("Precisao: %f\n" % (precision_score(y_test, y_pred, average = 'macro')))
 
             
-#pegar média e desvio padrão de todos algoritmos
 #https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html#sphx-glr-auto-examples-classification-plot-classifier-comparison-py
 #plotar diferentes gráficos de cada algoritmos
 #acuracia, precisão, f1 score, 
